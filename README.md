@@ -162,7 +162,7 @@ namespace Online_Shopping
         }
         
         
-
+namespace Online_Shopping
 {
     public partial class MainMenu : Form
     {
@@ -186,4 +186,12 @@ namespace Online_Shopping
             this.Hide();
             gamestore.ShowDialog();
         }
-        
+
+        private void btnLogout_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+
+    }
+}
